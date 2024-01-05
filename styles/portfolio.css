@@ -167,10 +167,38 @@ main section{
  
 /* resumi section */
 .resume-column-title{
-    color: #474747;
-    font-weight: 700;
+        color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
    
 }
-.resume-item{
-    display: ;
+.resume-container{
+    display: flex;
+}
+
+.resume-item-drescription{
+    color: #757575;
+}
+
+.resume-item-institute{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.resumi-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 10px 10px ;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
